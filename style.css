@@ -1,0 +1,75 @@
+body{
+	width: 250px;
+	height: 500px;
+	margin-left: 40%;
+	margin-top: 5%;
+
+
+}
+#screen{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+#backBoard{
+	padding: 15px 15px 15px 15px;
+	background-color: pink;
+	align-self: center;
+
+}
+h3{
+	text-align: center;
+	margin-bottom: -10px;
+}
+#labels{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: -15px;
+
+}
+
+#board{
+	text-align: center;
+	font-size: 5rem;
+	justify-content: center;
+	text-align: center;
+	//margin: 5rem 0 0 10rem;
+}
+#buttons{
+	display: flex;
+	flex-direction: row;
+
+}
+#xo{
+	margin-left: 5rem;
+}
+.row button{
+	height: 5rem;
+	width:5rem;
+	font-size: 4.5rem;
+	justify-content: center;
+
+}
+
+.row{
+	display: flex;
+	flex-direction: row;
+	justify-content: center
+	
+	height: 5rem;
+
+}
+
+.column{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+	width: 5rem;
+
+}
+.bold{
+	font-weight: bold;
+	background-color: white;
+}
